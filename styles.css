@@ -8,8 +8,12 @@
 	width: 200px;
 	border-radius:5px;
 	font-size:40px;
+	font-sze:40px;
 	
 }
 .grid-container{
+	display: grid;
 	grid-gap: 10px 10px;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	justify-items: center;
 }
